@@ -36,4 +36,8 @@ public class Calculator {
     public double multiplyNumbers() {
         return this.num1 * this.num2;
     }
+
+    public double divideNumbers() {
+        return this.num1 / this.num2;
+    }
 }
