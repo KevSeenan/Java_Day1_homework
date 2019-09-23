@@ -21,5 +21,11 @@ public class WaterBottle {
         return this.volume;
     }
 
+    public int volumeToZero() {
+        if(this.volume > 0) {
+            volume -= 100;
+        }
+        return this.volume;
+    }
 
 }
