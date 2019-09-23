@@ -14,5 +14,12 @@ public class WaterBottle {
         this.volume = volume;
     }
 
+    public int takeADrink() {
+        if(this.volume > 10) {
+            volume -= 10;
+        }
+        return this.volume;
+    }
+
 
 }
