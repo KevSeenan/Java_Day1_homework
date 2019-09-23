@@ -21,4 +21,9 @@ public class CalculatorTest {
     public void canSubtractNumbers(){
         assertEquals(3, calculator.subtractNumbers(), 0.01);
     }
+
+    @Test
+    public void canMultiplyNumbers() {
+        assertEquals(10, calculator.multiplyNumbers(), 0.01);
+    }
 }

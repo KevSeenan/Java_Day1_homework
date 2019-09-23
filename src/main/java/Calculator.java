@@ -32,4 +32,8 @@ public class Calculator {
     public double subtractNumbers() {
         return this.num2 - this.num1;
     }
+
+    public double multiplyNumbers() {
+        return this.num1 * this.num2;
+    }
 }
