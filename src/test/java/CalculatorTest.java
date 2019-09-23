@@ -16,4 +16,9 @@ public class CalculatorTest {
     public void canAddNumbers(){
         assertEquals(7.00, calculator.addNumbers(), 0.01);
     }
+
+    @Test
+    public void canSubtractNumbers(){
+        assertEquals(3, calculator.subtractNumbers(), 0.01);
+    }
 }
