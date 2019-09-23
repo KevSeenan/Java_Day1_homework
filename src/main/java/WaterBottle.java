@@ -28,4 +28,11 @@ public class WaterBottle {
         return this.volume;
     }
 
+    public int volumeToFull() {
+        if(this.volume < 100) {
+            volume += 100;
+        }
+        return this.volume;
+    }
+
 }

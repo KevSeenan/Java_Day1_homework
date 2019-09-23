@@ -22,7 +22,12 @@ public class WaterBottleTest {
     }
 
     @Test
-    public void volumeToZero() {
+    public void canSetVolumeToZero() {
         assertEquals(0, waterBottle.volumeToZero());
+    }
+
+    @Test
+    public void canSetVolumeToFull() {
+        assertEquals(100, waterBottle.volumeToFull());
     }
 }
